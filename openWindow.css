@@ -1,0 +1,53 @@
+
+
+.open {
+    /* background-color: black; */
+    background-image: url("opencur.jpg") ;
+    background-repeat: no-repeat;  
+           
+}
+
+.slap {
+    border-radius: 100px;
+    padding: auto;
+    font-size: 20px;
+    height:100px;
+    width: 100px;
+    background-color: black;
+    color:white;
+    
+    
+}
+
+.mum {
+    animation-name: appear;
+    animation-duration: 2s; 
+    font-size: 100px; 
+    text-align: right;
+    margin-right: 40px;
+    color: red;
+    font-family: "Creepster", "Arial";
+}
+
+@keyframes appear {
+
+    from {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* @keyframes open {
+
+    0% {
+        background-position: center ;
+    }
+
+    100% {
+        background-position:top;
+    }
+} */
